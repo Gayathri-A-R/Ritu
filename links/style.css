@@ -1,0 +1,147 @@
+@font-face{
+  font-family:"Bad Script";
+  src:
+    url("BadScript-Regular.ttf") format('truetype');
+}
+@font-face{
+  font-family:"Dancing Script";
+  src:
+    url("DancingScript-Regular.ttf") format('truetype');
+}
+@font-face{
+  font-family:"stalemate";
+  src:
+    url("Stalemate-Regular.ttf") format('truetype');
+
+}
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+html {
+  font-size:32px;
+  background-size:cover;
+  width:100%;
+   background:linear-gradient(DeepSkyBlue, Black);
+  background-repeat:no-repeat;
+}
+.title_main {
+  font-size:4.9rem;
+  line-height:0.8;
+  margin-top:5%;
+}
+.title_sub {
+  font-size:2rem;
+  margin-bottom:1%;
+}
+.intro {
+  font-sizing:0.6rem;
+font-family: 'Bad Script', cursive;
+ padding-left:3rem;
+ padding-right:3rem;
+ word-wrap:break-word;
+ line-height:1.4;
+}
+.main {
+  font-size:1.2rem;
+  font-family: 'Bad Script', cursive;
+   padding-left:3rem;
+ padding-right:3rem;
+ word-wrap:break-word;
+ line-height:1.4;
+}
+
+.title_main, .title_sub{
+  text-align:center;
+}
+.intro, .main {
+  margin-left: 10%;
+  margin-right:10%;
+ text-align:center;
+}
+.title_main {
+font-family: 'Dancing Script', cursive;
+ }
+.title_sub {
+font-family: 'Stalemate', cursive;
+}
+.contact {
+ text-align:center;
+ margin-top:5%;
+ font-size:1rem;
+ color:marron;
+font-family: 'Stalemate', cursive;
+ 
+}
+.sent {
+  line-height:1.6;
+}
+img  {
+ height:25px;
+ width:25px;
+ display:inline;
+ margin-left:5px;
+ padding-top:5px;
+}
+#heart {
+  margin-left:0;
+}
+a {
+text-decoration:none;
+ color:hsla(205,20%,50%,.6);
+}
+a:hover{
+ color:hsla(205,70%,60%,.8);
+}
+@media only screen and (min-width:1500px){
+html{
+  font-size:32px;
+  height:100%;
+ 
+  }
+}
+@media only screen and (max-width:1500px) and (min-width:1300px) {
+  html{
+   font-size:31px;
+   height:auto;
+   overflow: scroll;
+}
+}
+@media only screen and (max-width:1300px) and (min-width:1150px) {
+  html{
+   font-size:29px;
+   height:auto;
+   overflow: scroll; 
+}
+}
+@media only screen and (max-width:1150px) and (min-width:900px) {
+  html{
+   font-size:29.5px;
+   height:auto;
+   overflow: scroll; 
+}
+@media only screen and (max-width:900px) and (min-width:768px) {
+  html{
+   font-size:27px;
+   height:auto;
+   overflow: scroll; 
+}
+}
+@media only screen and (max-width:768px) and (min-width:480px) {
+  html{
+   font-size:25px;
+   height:auto;
+   overflow: scroll; 
+}
+}
+@media only screen and (max-width:480px) {
+  html{
+   font-size:17px;
+   height:auto;
+   min-width:300px;
+   overflow: scroll; 
+}
+}
+
+
