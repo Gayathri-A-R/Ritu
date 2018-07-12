@@ -141,6 +141,11 @@ html{
    height:auto;
    min-width:300px;
    overflow: scroll; 
+    .title_main {
+      font-size:5.4rem;
+    }
+    .title_sub {
+      font-size:2.5rem;
 }
 }
 
